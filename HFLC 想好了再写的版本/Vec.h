@@ -1,4 +1,5 @@
 #pragma once
+//try to make a differrence
 #include<iostream>
 #include<fstream>
 using std::ostream;
@@ -12,9 +13,9 @@ public:
 	double mo() const;
 	Vec operator+(const Vec &obj);
 	Vec operator*(const Vec &obj) const;
-	Vec operator*(const double num);
+	Vec operator*(const double num); 
 	Vec operator-(const Vec &obj) const;
-	Vec operator/(const double num);
+	Vec operator/(const double num);   
 	Vec operator+=(const Vec &obj);
 	Vec operator=(const Vec &obj);
 	double operator&(const Vec&obj) const;
